@@ -1,8 +1,15 @@
 .header{
   background-color: #EFF4F6;
    height: 942px;
-  position:relative;
+   width: 100%;
   // overflow: hidden;
+}
+
+.header__wrapper{
+  position:relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 942px;
 }
 
 .header__title{

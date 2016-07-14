@@ -90,7 +90,13 @@ input, select {
 .header {
   background-color: #EFF4F6;
   height: 942px;
-  position: relative; }
+  width: 100%; }
+
+.header__wrapper {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 942px; }
 
 .header__title {
   width: 430px;
@@ -252,6 +258,11 @@ input, select {
   text-align: center;
   letter-spacing: 10px;
   margin-bottom: 80px; }
+
+.contents__items:after {
+  display: block;
+  content: "";
+  clear: both; }
 
 .contents__items ul {
   list-style: none; }
