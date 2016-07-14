@@ -14,6 +14,10 @@
   margin-bottom: 80px;
 }
 
+.contents__items{
+  @include clearfix();
+}
+
 .contents__items ul{
   list-style: none;
 }
