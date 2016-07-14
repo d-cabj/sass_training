@@ -1,0 +1,50 @@
+// @media screen and(min-width: 600px){
+
+.imageList{
+    @include clearfix();
+
+    &__ul{
+      list-style: none;
+
+        &__li-wrapper{
+          text-align: center;
+          margin-bottom: 20px;
+
+            &__li{
+              width: $item_width;
+              display: inline-block;
+              box-sizing: border-box;
+              margin: 0px 16px 0px 16px;
+              vertical-align: top;
+
+                a {
+                  text-decoration: none;
+
+                    h3 {
+                      color: #413531;
+                      font-size:16px;
+                      font-family: Helvetica;
+                      font-weight: bold;
+                      padding-top: 20px;
+                      padding-bottom: 5px;
+                    }
+
+                    p {
+                      color: #685F5C;
+                      font-size: 16px;
+                      font-family: Helvetica;
+                      font-weight: normal;
+                      padding-bottom: 20px;
+                    }
+
+                    img{
+                      width: $item_width;
+                      height: $item_width * 12 / 17 ;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// }
